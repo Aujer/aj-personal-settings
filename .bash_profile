@@ -1,8 +1,8 @@
 export PS1="$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
-alias ls='ls -GFh'
-alias l='ls -GFh'
+alias ls='ls -lGFh'
+alias l='ls -lGFh'
 alias py='python'
 alias s='git status'
 alias sleepless="pmset -g assertions | egrep '(PreventUserIdleSystemSleep|PreventUserIdleDisplaySleep)'"
